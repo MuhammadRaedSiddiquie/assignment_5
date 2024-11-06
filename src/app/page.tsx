@@ -1,101 +1,37 @@
-import Image from "next/image";
+
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <div className='w-full h-screen'>
+      <nav className="w-full h-[14%] bg-[#A29875] flex items-center justify-evenly">
+        <div className="bg-[url('/images/logo.svg')] w-[24%] h-[65%] bg-contain bg-no-repeat bg-center relative left-[-4%]"></div>
+        <div className="bg-white w-[50%] h-[40%] rounded-[12px] flex">
+          <input type="text" className="bg-white rounded-[12px] w-[95%] text-[14px] pl-4" placeholder="Search for Gold Jewellery, Diamond Jewellery and more..."/>
+          <span className="block bg-[url('/images/search.svg')] rounded-[12px] bg-no-repeat bg-center bg-contain w-[5%] m-2 bg-white"></span>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        <div className="flex w-[12%] items-center justify-between">
+          <span className="bg-[url('/images/like.svg')] bg-no-repeat bg-center bg-contain w-[33px] h-[33px] block"></span>
+          <span className="bg-[url('/images/pro.svg')] bg-no-repeat bg-center bg-contain w-[33px] h-[33px] block"></span>
+          <span className="bg-[url('/images/cart.svg')] bg-no-repeat bg-center bg-contain w-[33px] h-[33px] block"></span>
+        </div>
+
+      </nav>
+      <section className="w-full h-[86%] bg-[#ffffff] flex items-center justify-center">
+        <div className="w-[85%] h-[70%] flex ">
+          <div className="w-[67%] h-[100%] bg-white flex flex-col pr-36  justify-between">
+            <h1 className="text-[33px] text-black font-bold font-[libre] leading-[50px]">IMPECCABLE <br />
+              CRAFTSMANSHIP AND <br />
+              FINESSE 
+            </h1>
+            <p className="text-[24px] text-[#787054] font-medium font-[libre] leading-10 ">
+            An example of intricate workmanship and detail, elegant necklaces and long and short chains form a part of our desirable collection.
+            </p>
+            <div className="flex items-center justify-center min-w-60 w-60 h-[50px] bg-[#A29875] text-white rounded-[7px] font-medium text-[22px] font-[libre]">Explore now</div>
+
+          </div>
+          <div className="w-[33%] h-[100%] bg-[url('/images/pic.svg')] bg-no-repeat bg-center bg-contain"></div>
+        </div>
+      </section>
     </div>
   );
 }
