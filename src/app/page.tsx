@@ -23,7 +23,7 @@ export default function Home() {
               CRAFTSMANSHIP AND <br />
               FINESSE 
             </h1>
-            <p className="xxl:text-[38px] text-[#787054] font-medium font-[libre] xxl:leading-[58px] l:text-[24px] l:leading-[40px] xl:text-[30px] xl:leading-[48px] lg:pr-[40rem]">
+            <p className="xxl:text-[38px] text-[#787054] font-medium font-[libre] xxl:leading-[58px] l:text-[24px] l:leading-[40px] xl:text-[30px] xl:leading-[48px] lg:pr-[10rem]">
             An example of intricate workmanship and detail, elegant necklaces and long and short chains form a part of our desirable collection.
             </p>
             <div className="flex items-center justify-center lg:w-60 xxl:w-96 l:w-60 xl:w-64 xxl:h-[85px] l:h-[50px] xl:h-[65px] sm:h-[40px] sm:w-[70%] bg-[#A29875] text-white rounded-[7px] font-medium xxl:text-[35px] l:text-[22px] xl:text-[28px]  font-[libre]">Explore now</div>
