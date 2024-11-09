@@ -18,7 +18,7 @@ export default function Home() {
       </nav>
       <section className="w-full h-[86%] bg-[#ffffff] flex items-center justify-center ">
         <div className="lg:w-[85%] lg:h-[70%] flex lg:flex-nowrap lg:text-start sm:flex-wrap sm:h-[90%] sm:justify-center sm:gap-4 sm:text-center ">
-          <div className="lg:w-[67%] lg:h-[100%] bg-white flex lg:flex-col pr-36  lg:justify-between lg:gap-0 lg:order-1 sm:order-2 sm:w-[90%] sm:h-[45%] sm:pr-0 sm:justify-center sm:gap-4">
+          <div className="lg:w-[67%] lg:h-[100%] bg-white flex lg:flex-col pr-36  lg:justify-between lg:gap-0 lg:order-1 sm:order-2 sm:w-[90%] sm:h-[45%] sm:pr-0 sm:justify-center sm:gap-4 sm:flex-col">
             <h1 className="xxl:text-[54px] xl:text-[44px] text-black font-bold font-[libre]  xxl:leading-[78px] l:text-[33px] l:leading-[50px] xl:leading-[66px]">IMPECCABLE <br />
               CRAFTSMANSHIP AND <br />
               FINESSE 
