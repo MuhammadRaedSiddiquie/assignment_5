@@ -18,15 +18,15 @@ export default function Home() {
       </nav>
       <section className="w-full h-[86%] bg-[#ffffff] flex items-center justify-center ">
         <div className="lg:w-[85%] lg:h-[70%] flex lg:flex-nowrap lg:text-start sm:flex-wrap sm:h-[90%] sm:justify-center sm:gap-4 sm:text-center ">
-          <div className="lg:w-[67%] lg:h-[100%] bg-white flex lg:flex-col pr-36  lg:justify-between lg:gap-0 lg:order-1 sm:order-2 sm:w-[90%] sm:h-[45%] sm:pr-0 sm:justify-center sm:gap-4 sm:flex-col">
-            <h1 className="xxl:text-[54px] xl:text-[44px] text-black font-bold font-[libre]  xxl:leading-[78px] l:text-[33px] l:leading-[50px] xl:leading-[66px]">IMPECCABLE <br />
+          <div className="lg:w-[67%] lg:h-[100%] bg-white flex lg:flex-col pr-36  lg:justify-between lg:gap-0 lg:order-1 sm:order-2 sm:w-[90%] sm:h-[45%] sm:pr-0 sm:justify-center sm:gap-4 sm:flex-col sm:items-center">
+            <h1 className="xxl:text-[54px] xl:text-[44px] text-black font-bold font-[libre]  xxl:leading-[78px] lg:text-[28px] l:text-[33px] l:leading-[50px] xl:leading-[66px] sm:text-[20px]">IMPECCABLE <br />
               CRAFTSMANSHIP AND <br />
               FINESSE 
             </h1>
             <p className="xxl:text-[38px] text-[#787054] font-medium font-[libre] xxl:leading-[58px] l:text-[24px] l:leading-[40px] xl:text-[30px] xl:leading-[48px]">
             An example of intricate workmanship and detail, elegant necklaces and long and short chains form a part of our desirable collection.
             </p>
-            <div className="flex items-center justify-center xxl:w-96 l:w-60 xl:w-64 xxl:h-[85px] l:h-[50px] xl:h-[65px] sm:h-[40px] bg-[#A29875] text-white rounded-[7px] font-medium xxl:text-[35px] l:text-[22px] xl:text-[28px]  font-[libre]">Explore now</div>
+            <div className="flex items-center justify-center lg:w-60 xxl:w-96 l:w-60 xl:w-64 xxl:h-[85px] l:h-[50px] xl:h-[65px] sm:h-[40px] sm:w-[70%] bg-[#A29875] text-white rounded-[7px] font-medium xxl:text-[35px] l:text-[22px] xl:text-[28px]  font-[libre]">Explore now</div>
 
           </div>
           <div className="lg:w-[33%] lg:h-[100%] bg-[url('/images/pic.svg')] lg:order-2 sm:order-1 bg-no-repeat bg-center bg-contain sm:w-[100%] sm:h-[60%]"></div>
